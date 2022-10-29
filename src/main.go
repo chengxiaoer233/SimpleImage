@@ -23,7 +23,7 @@ func main() {
 	 server.HandleAnalyzeImage(context.Background(), &req)
 
 	// reWrite
-	 // server.RewriteImage()
+	// server.RewriteImage()
 
 	// wait for return
 	c := make(chan os.Signal)
